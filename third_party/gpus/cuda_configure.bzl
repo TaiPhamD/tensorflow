@@ -821,6 +821,7 @@ filegroup(name="cudnn-include")
         "cuda:cuda_config.h",
         {
             "%{cuda_version}": "",
+            "%{cudart_version}": "",
             "%{cublas_version}": "",
             "%{cusolver_version}": "",
             "%{curand_version}": "",
