@@ -699,6 +699,7 @@ def _get_cuda_config(repository_ctx, find_cuda_config_script):
     return struct(
         cuda_toolkit_path = toolkit_path,
         cuda_version = cuda_version,
+        cudart_version = cudart_version,
         cublas_version = cublas_version,
         cusolver_version = cusolver_version,
         curand_version = curand_version,
